@@ -1,0 +1,16 @@
+body {
+  min-width: 320px;
+}
+
+main.container {
+  max-width: 1000px;
+}
+
+.table td:first-child {
+  min-width: 230px;
+}
+
+.table th:not(:first-child),
+.table td:not(:first-child) {
+  white-space: nowrap;
+}
